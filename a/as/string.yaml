@@ -1,0 +1,13 @@
+Container_type_dev: ''
+Container_type_prd: large
+Container_type_qa: ''
+Image_tag: qa
+dag_name: test_dag
+environment: qa
+gke_service_account_dev: mdz-d-meu-analyt-tal-ing-ksa
+gke_service_account_prod: mdz-p-meu-analyt-tal-ing-ksa
+gke_service_account_qa: mdz-q-meu-analyt-tal-ing-ksa
+log_level: INFO
+namespace: datal
+pid: '37'
+region: meu
