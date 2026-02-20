@@ -1,0 +1,13 @@
+pid: 88
+dag_name: global_88_oneviewconsole_sapecc_ap_stc_monthly
+namespace: NS10
+log_level: INFO
+dev:
+  container_type: mini
+  gke_service_account: mdz-d-meu-analyt-tal-ing-ksa
+qa:
+  container_type: mini
+  gke_service_account: mdz-q-meu-analyt-tal-ing-ksa
+prd:
+  container_type: mini
+  gke_service_account: mdz-p-meu-analyt-tal-ing-ksa
