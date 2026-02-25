@@ -1,0 +1,13 @@
+pid: 59
+dag_name: meu_59_oneviewconsole_sapecc_ap_stc_monthly
+namespace: ns12
+log_level: INFO
+dev:
+  container_type: mini
+  gke_service_account: asf-af-f
+qa:
+  container_type: mini
+  gke_service_account: asf-af-f
+prd:
+  container_type: mini
+  gke_service_account: asf-af-f
